@@ -1,6 +1,10 @@
 db.sqlite3
 
 /.idea
+../.idea/misc.xml
+../.idea/modules.xml
+../.idea/offices.iml
+../.idea/workspace.xml
 
 *.pyc
 node_modules/*
