@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a460e9d-b238-48fc-a219-be12dfa0990c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/offices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/office/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/office/templates/office/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/office/templates/office/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +42,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="7" />
+          <entry key="gitignore" value="12" />
           <entry key="html" value="415" />
           <entry key="py" value="157" />
           <entry key="txt" value="10" />
@@ -46,7 +51,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="415" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="PLAIN_TEXT" value="22" />
           <entry key="Python" value="157" />
         </counts>
       </usages-collector>
@@ -66,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/office/templates/office/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="52">
@@ -75,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/office/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="90">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -142,8 +147,8 @@
         <option value="$PROJECT_DIR$/office/templates/office/base.html" />
         <option value="$PROJECT_DIR$/office/core/views.py" />
         <option value="$PROJECT_DIR$/office/requirement.txt" />
-        <option value="$PROJECT_DIR$/office/.gitignore" />
         <option value="$PROJECT_DIR$/office/templates/office/home.html" />
+        <option value="$PROJECT_DIR$/office/.gitignore" />
       </list>
     </option>
   </component>
@@ -166,6 +171,17 @@
             <path>
               <item name="offices" type="b2602c69:ProjectViewProjectNode" />
               <item name="offices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offices" type="462c0819:PsiDirectoryNode" />
+              <item name="office" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offices" type="462c0819:PsiDirectoryNode" />
+              <item name="office" type="462c0819:PsiDirectoryNode" />
+              <item name="office" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,13 +305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/office/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/office/office/local_settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -307,6 +316,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="176" column="16" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/office/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
