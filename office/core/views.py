@@ -14,5 +14,4 @@ class HomeView(TemplateView):
 			total_count = PageCounter()
 			total_count.total_count = 1
 			total_count.save()
-		context['total_count'] = total_count.total_count
 		return context
