@@ -1,0 +1,13 @@
+db.sqlite3
+
+.idea/*
+.idea/vcs.xml
+.idea/Mart.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+shop/.idea/*
+
+*.pyc
+node_modules/*
+local_settings.py
