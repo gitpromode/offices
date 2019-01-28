@@ -1,7 +1,10 @@
-from .models import PageCounter
-from django.views.generic import TemplateView
+from .models import PageCounter, Contact
+from .forms import ContactForm
+from django.views import generic
 
-class HomeView(TemplateView):
+class HomeView(generic.FormView):
+	model = Contact
+	form_class = ContactForm
 	template_name = 'office/home.html'
 
 	def get_context_data(self, **kwargs):
