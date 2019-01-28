@@ -17,15 +17,13 @@ from django.conf import settings
 from django.contrib import admin
 from django.urls import include, path
 from django.conf.urls.static import static
-from django.views.generic.base import TemplateView
 from core.views import HomeView
 
 
 urlpatterns = [
-    path('core/', include('core.urls')),
     path('admin/', admin.site.urls),
     path('', HomeView.as_view(), name='home'),
-    path('', TemplateView.as_view(template_name='office/home.html'), name='home'),
+    path('', HomeView.as_view(template_name='office/home.html'), name='home'),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
