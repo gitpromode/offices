@@ -1,5 +1,9 @@
+Babel==2.6.0
 Django==2.1.5
+django-phonenumber-field==2.2.0
+phonenumbers==8.10.4
 pip==1.5.4
 postgis==1.0.4
+psycopg2==2.7.7
 pytz==2018.9
 setuptools==2.2
