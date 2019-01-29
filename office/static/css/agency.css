@@ -387,6 +387,167 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
+
+#projects .projects-item {
+  right: 0;
+  margin: 0 0 15px;
+}
+
+#projects .projects-item .projects-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#projects .projects-item .projects-link .projects-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: rgba(254, 209, 54, 0.9);
+}
+
+#projects .projects-item .projects-link .projects-hover:hover {
+  opacity: 1;
+}
+
+#projects .projects-item .projects-link .projects-hover .projects-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+#projects .projects-item .projects-link .projects-hover .projects-hover-content i {
+  margin-top: -12px;
+}
+
+#projects .projects-item .projects-link .projects-hover .projects-hover-content h3,
+#projects .projects-item .projects-link .projects-hover .projects-hover-content h4 {
+  margin: 0;
+}
+
+#projects .projects-item .projects-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#projects .projects-item .projects-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#projects .projects-item .projects-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#projects * {
+  z-index: 2;
+}
+
+@media (min-width: 767px) {
+  #projects .projects-item {
+    margin: 0 0 30px;
+  }
+}
+
+.projects-modal {
+  padding-right: 0px !important;
+}
+
+.projects-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+
+.projects-modal .modal-content {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.projects-modal .modal-content h2 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.projects-modal .modal-content p {
+  margin-bottom: 30px;
+}
+
+.projects-modal .modal-content p.item-intro {
+  font-size: 16px;
+  font-style: italic;
+  margin: 20px 0 30px;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.projects-modal .modal-content ul.list-inline {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.projects-modal .modal-content img {
+  margin-bottom: 30px;
+}
+
+.projects-modal .modal-content button {
+  cursor: pointer;
+}
+
+.projects-modal .close-modal {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.projects-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+.projects-modal .close-modal .lr {
+  /* Safari and Chrome */
+  z-index: 1051;
+  width: 1px;
+  height: 75px;
+  margin-left: 35px;
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #212529;
+}
+
+.projects-modal .close-modal .lr .rl {
+  /* Safari and Chrome */
+  z-index: 1052;
+  width: 1px;
+  height: 75px;
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-color: #212529;
+}
+
+
+
+
 .timeline {
   position: relative;
   padding: 0;
