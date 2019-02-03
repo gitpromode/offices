@@ -854,3 +854,69 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+#projects .projects-item {
+ right:0;
+ margin:0 0 15px
+}
+#projects .projects-item .projects-link {
+ position:relative;
+ display:block;
+ max-width:400px;
+ margin:0 auto;
+ cursor:pointer
+}
+#projects .projects-item .projects-link .projects-hover {
+ position:absolute;
+ width:100%;
+ height:100%;
+ -webkit-transition:all ease .5s;
+ transition:all ease .5s;
+ opacity:0;
+ background:rgba(254,209,54,.9)
+}
+#projects .projects-item .projects-link .projects-hover:hover {
+ opacity:1
+}
+#projects .projects-item .projects-link .projects-hover .projects-hover-content {
+ font-size:20px;
+ position:absolute;
+ top:50%;
+ width:100%;
+ height:20px;
+ margin-top:-12px;
+ text-align:center;
+ color:#fff
+}
+#projects .projects-item .projects-link .projects-hover .projects-hover-content i {
+ margin-top:-12px
+}
+#projects .projects-item .projects-link .projects-hover .projects-hover-content h3,
+#projects .projects-item .projects-link .projects-hover .projects-hover-content h4 {
+ margin:0
+}
+#projects .projects-item .projects-caption {
+ max-width:400px;
+ margin:0 auto;
+ padding:25px;
+ text-align:center;
+ background-color:#fff
+}
+#projects .projects-item .projects-caption h4 {
+ margin:0;
+ text-transform:none
+}
+#projects .projects-item .projects-caption p {
+ font-size:16px;
+ font-style:italic;
+ margin:0;
+ font-family:'Droid Serif',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+}
+#projects * {
+ z-index:2
+}
+@media (min-width:767px) {
+ #projects .projects-item {
+  margin:0 0 30px
+ }
+}
